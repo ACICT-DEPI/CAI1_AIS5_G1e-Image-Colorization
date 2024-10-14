@@ -4,7 +4,7 @@ This repository contains a project for image colorization using the U-Net archit
 
 ## Overview
 
-In this project, we used a U-Net model to transform grayscale images into color images. The model was trained on paired datasets of grayscale and color images. The input images were of size 224x224 with a single channel (grayscale), and the output images were of size 224x224 with three channels (RGB).
+In this project, we used a U-Net model to predict RGB channels. The model was trained on paired datasets of grayscale and color images. The input images were of size 224x224 with a single channel (grayscale), and the output images were of size 224x224 with three channels (RGB).
 
 ## Dataset
 
@@ -18,38 +18,6 @@ The U-Net architecture is designed for image segmentation tasks but has been ada
 - **Contracting Path**: Downsampling the input image while capturing context.
 - **Bottleneck**: The deepest layer of the network, which holds the learned features.
 - **Expansive Path**: Upsampling to reconstruct the image while preserving spatial information.
-
-## Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/image-colorization.git
-   cd image-colorization
-   ```
-
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-
-To run the colorization model, use the following command:
-```bash
-python colorization.py --input_path path/to/gray/images --output_path path/to/save/color/images
-```
-
-Replace `path/to/gray/images` with the path to your grayscale images and `path/to/save/color/images` with the desired output path for the color images.
-
-## Results
-
-After training the model, you can evaluate its performance by checking the generated color images in the output folder.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
-## Acknowledgements
-
-- U-Net Architecture: [Ronneberger et al. (2015)](https://arxiv.org/abs/1505.04597)
-- Image Colorization Techniques
+## Data
+- [Kaggle DataSet](https://www.kaggle.com/datasets/theblackmamba31/landscape-image-colorization)
+- [Kaggle Notebook](https://www.kaggle.com/code/aliabdelmenam/image-colorization-u-net)
