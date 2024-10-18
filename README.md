@@ -22,7 +22,7 @@ The U-Net architecture is designed for image segmentation tasks but has been ada
 - [Kaggle DataSet](https://www.kaggle.com/datasets/theblackmamba31/landscape-image-colorization)
 - [Kaggle Notebook](https://www.kaggle.com/code/aliabdelmenam/image-colorization-u-net)
 ## Deployment
--Deploy model using streamlit 
+- Deploy model using streamlit 
 
 ## Model
 -  [Model](https://www.kaggle.com/models/aliabdelmenam/keras_model/)
